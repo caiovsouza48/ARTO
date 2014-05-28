@@ -19,9 +19,9 @@
 		DE5B7C691936524400921E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C511936524400921E1F /* UIKit.framework */; };
 		DE5B7C711936524400921E1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C6F1936524400921E1F /* InfoPlist.strings */; };
 		DE5B7C731936524400921E1F /* ARTOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B7C721936524400921E1F /* ARTOTests.m */; };
-		DE5B7C7E193653D400921E1F /* View in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C7D193653D400921E1F /* View */; };
-		DE5B7C80193653E800921E1F /* Model in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C7F193653E800921E1F /* Model */; };
-		DE5B7C82193653FA00921E1F /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C81193653FA00921E1F /* Controller */; };
+		DE5B7C861936565800921E1F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B7C841936565800921E1F /* LoginViewController.m */; };
+		DE5B7C871936565800921E1F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C851936565800921E1F /* LoginViewController.xib */; };
+		DE5B7C8919365A8200921E1F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C8819365A8200921E1F /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +51,10 @@
 		DE5B7C6E1936524400921E1F /* ARTOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARTOTests-Info.plist"; sourceTree = "<group>"; };
 		DE5B7C701936524400921E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE5B7C721936524400921E1F /* ARTOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTOTests.m; sourceTree = "<group>"; };
-		DE5B7C7D193653D400921E1F /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
-		DE5B7C7F193653E800921E1F /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		DE5B7C81193653FA00921E1F /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+		DE5B7C831936565800921E1F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		DE5B7C841936565800921E1F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		DE5B7C851936565800921E1F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../LoginViewController.xib; sourceTree = "<group>"; };
+		DE5B7C8819365A8200921E1F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5B7C501936524400921E1F /* CoreGraphics.framework in Frameworks */,
+				DE5B7C8919365A8200921E1F /* FacebookSDK.framework in Frameworks */,
 				DE5B7C521936524400921E1F /* UIKit.framework in Frameworks */,
 				DE5B7C4E1936524400921E1F /* Foundation.framework in Frameworks */,
 			);
@@ -102,6 +104,7 @@
 		DE5B7C4C1936524400921E1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE5B7C8819365A8200921E1F /* FacebookSDK.framework */,
 				DE5B7C4D1936524400921E1F /* Foundation.framework */,
 				DE5B7C4F1936524400921E1F /* CoreGraphics.framework */,
 				DE5B7C511936524400921E1F /* UIKit.framework */,
@@ -113,9 +116,9 @@
 		DE5B7C531936524400921E1F /* ARTO */ = {
 			isa = PBXGroup;
 			children = (
-				DE5B7C81193653FA00921E1F /* Controller */,
-				DE5B7C7F193653E800921E1F /* Model */,
-				DE5B7C7D193653D400921E1F /* View */,
+				DE5B7C831936565800921E1F /* LoginViewController.h */,
+				DE5B7C841936565800921E1F /* LoginViewController.m */,
+				DE5B7C851936565800921E1F /* LoginViewController.xib */,
 				DE5B7C5C1936524400921E1F /* AppDelegate.h */,
 				DE5B7C5D1936524400921E1F /* AppDelegate.m */,
 				DE5B7C5F1936524400921E1F /* Images.xcassets */,
@@ -230,9 +233,7 @@
 			files = (
 				DE5B7C581936524400921E1F /* InfoPlist.strings in Resources */,
 				DE5B7C601936524400921E1F /* Images.xcassets in Resources */,
-				DE5B7C80193653E800921E1F /* Model in Resources */,
-				DE5B7C82193653FA00921E1F /* Controller in Resources */,
-				DE5B7C7E193653D400921E1F /* View in Resources */,
+				DE5B7C871936565800921E1F /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +254,7 @@
 			files = (
 				DE5B7C5E1936524400921E1F /* AppDelegate.m in Sources */,
 				DE5B7C5A1936524400921E1F /* main.m in Sources */,
+				DE5B7C861936565800921E1F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +371,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
 				INFOPLIST_FILE = "ARTO/ARTO-Info.plist";
@@ -382,6 +388,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
 				INFOPLIST_FILE = "ARTO/ARTO-Info.plist";
