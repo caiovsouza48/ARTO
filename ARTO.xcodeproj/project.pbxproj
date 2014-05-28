@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B07CE178193679DC00414608 /* ARTOTelaPrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07CE176193679DC00414608 /* ARTOTelaPrincipalViewController.m */; };
+		B07CE179193679DC00414608 /* ARTOTelaPrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07CE177193679DC00414608 /* ARTOTelaPrincipalViewController.xib */; };
+		B07CE17C19367C0200414608 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07CE17B19367C0200414608 /* Mapbox.framework */; };
+		B07CE17E19367C6000414608 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07CE17D19367C5F00414608 /* CoreLocation.framework */; };
+		B07CE18019367C6E00414608 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07CE17F19367C6E00414608 /* QuartzCore.framework */; };
+		B07CE18219367C8800414608 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B07CE18119367C8800414608 /* libsqlite3.dylib */; };
+		B07CE18419367C9300414608 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B07CE18319367C9300414608 /* libz.dylib */; };
+		B07CE18619367D9F00414608 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B07CE18519367D9F00414608 /* Mapbox.bundle */; };
 		DE5B7C4E1936524400921E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C4D1936524400921E1F /* Foundation.framework */; };
 		DE5B7C501936524400921E1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C4F1936524400921E1F /* CoreGraphics.framework */; };
 		DE5B7C521936524400921E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C511936524400921E1F /* UIKit.framework */; };
@@ -35,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B07CE175193679DC00414608 /* ARTOTelaPrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTOTelaPrincipalViewController.h; sourceTree = "<group>"; };
+		B07CE176193679DC00414608 /* ARTOTelaPrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTOTelaPrincipalViewController.m; sourceTree = "<group>"; };
+		B07CE177193679DC00414608 /* ARTOTelaPrincipalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARTOTelaPrincipalViewController.xib; sourceTree = "<group>"; };
+		B07CE17B19367C0200414608 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = ../Downloads/Mapbox.framework; sourceTree = "<group>"; };
+		B07CE17D19367C5F00414608 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B07CE17F19367C6E00414608 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B07CE18119367C8800414608 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B07CE18319367C9300414608 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B07CE18519367D9F00414608 /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Mapbox.bundle; path = ../../Downloads/Mapbox.framework/Versions/A/Resources/Mapbox.bundle; sourceTree = "<group>"; };
 		DE5B7C4A1936524400921E1F /* ARTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5B7C4D1936524400921E1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE5B7C4F1936524400921E1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07CE18419367C9300414608 /* libz.dylib in Frameworks */,
+				B07CE18219367C8800414608 /* libsqlite3.dylib in Frameworks */,
+				B07CE18019367C6E00414608 /* QuartzCore.framework in Frameworks */,
+				B07CE17E19367C6000414608 /* CoreLocation.framework in Frameworks */,
+				B07CE17C19367C0200414608 /* Mapbox.framework in Frameworks */,
 				DE5B7C501936524400921E1F /* CoreGraphics.framework in Frameworks */,
 				DE5B7C8919365A8200921E1F /* FacebookSDK.framework in Frameworks */,
 				DE5B7C521936524400921E1F /* UIKit.framework in Frameworks */,
@@ -104,6 +126,11 @@
 		DE5B7C4C1936524400921E1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B07CE18319367C9300414608 /* libz.dylib */,
+				B07CE18119367C8800414608 /* libsqlite3.dylib */,
+				B07CE17F19367C6E00414608 /* QuartzCore.framework */,
+				B07CE17D19367C5F00414608 /* CoreLocation.framework */,
+				B07CE17B19367C0200414608 /* Mapbox.framework */,
 				DE5B7C8819365A8200921E1F /* FacebookSDK.framework */,
 				DE5B7C4D1936524400921E1F /* Foundation.framework */,
 				DE5B7C4F1936524400921E1F /* CoreGraphics.framework */,
@@ -119,6 +146,9 @@
 				DE5B7C831936565800921E1F /* LoginViewController.h */,
 				DE5B7C841936565800921E1F /* LoginViewController.m */,
 				DE5B7C851936565800921E1F /* LoginViewController.xib */,
+				B07CE175193679DC00414608 /* ARTOTelaPrincipalViewController.h */,
+				B07CE176193679DC00414608 /* ARTOTelaPrincipalViewController.m */,
+				B07CE177193679DC00414608 /* ARTOTelaPrincipalViewController.xib */,
 				DE5B7C5C1936524400921E1F /* AppDelegate.h */,
 				DE5B7C5D1936524400921E1F /* AppDelegate.m */,
 				DE5B7C5F1936524400921E1F /* Images.xcassets */,
@@ -130,6 +160,7 @@
 		DE5B7C541936524400921E1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B07CE18519367D9F00414608 /* Mapbox.bundle */,
 				DE5B7C551936524400921E1F /* ARTO-Info.plist */,
 				DE5B7C561936524400921E1F /* InfoPlist.strings */,
 				DE5B7C591936524400921E1F /* main.m */,
@@ -232,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5B7C581936524400921E1F /* InfoPlist.strings in Resources */,
+				B07CE179193679DC00414608 /* ARTOTelaPrincipalViewController.xib in Resources */,
+				B07CE18619367D9F00414608 /* Mapbox.bundle in Resources */,
 				DE5B7C601936524400921E1F /* Images.xcassets in Resources */,
 				DE5B7C871936565800921E1F /* LoginViewController.xib in Resources */,
 			);
@@ -255,6 +288,7 @@
 				DE5B7C5E1936524400921E1F /* AppDelegate.m in Sources */,
 				DE5B7C5A1936524400921E1F /* main.m in Sources */,
 				DE5B7C861936565800921E1F /* LoginViewController.m in Sources */,
+				B07CE178193679DC00414608 /* ARTOTelaPrincipalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,10 +408,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/yurialexsander/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
 				INFOPLIST_FILE = "ARTO/ARTO-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,10 +427,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/yurialexsander/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
 				INFOPLIST_FILE = "ARTO/ARTO-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "LoginViewController.h"
+#import "ARTOTelaPrincipalViewController.h"
+#import <Mapbox/Mapbox.h>
 
 @implementation AppDelegate
 
@@ -19,7 +21,23 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[LoginViewController alloc]initWithNibName:nil bundle:nil];
+    
+    //TORNANDO A TELA DO MAPA A PRINCIPAL
+    ARTOTelaPrincipalViewController *telaPrincipal = [[ARTOTelaPrincipalViewController alloc]init];
+    
+    self.window.rootViewController = telaPrincipal;
+    
+    //INSTANCIANDO O MAPA
+    RMMapboxSource *sourceMapa = [[RMMapboxSource alloc] initWithMapID:@"yurialexsander.ic56hia1"];
+    
+    RMMapView *mapaPrincipal = [[RMMapView alloc] initWithFrame:telaPrincipal.view.bounds andTilesource:sourceMapa];
+    
+    [telaPrincipal.view addSubview:mapaPrincipal];
+    
+    //TORNANDO A TELA DO FACEBOOK A PRINCIPAL
+    //self.window.rootViewController = [[LoginViewController alloc]initWithNibName:nil bundle:nil];
+    
+    
     return YES;
 }
 
