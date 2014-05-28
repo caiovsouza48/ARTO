@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5B7C4E1936524400921E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C4D1936524400921E1F /* Foundation.framework */; };
+		DE5B7C501936524400921E1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C4F1936524400921E1F /* CoreGraphics.framework */; };
+		DE5B7C521936524400921E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C511936524400921E1F /* UIKit.framework */; };
+		DE5B7C581936524400921E1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C561936524400921E1F /* InfoPlist.strings */; };
+		DE5B7C5A1936524400921E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B7C591936524400921E1F /* main.m */; };
+		DE5B7C5E1936524400921E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B7C5D1936524400921E1F /* AppDelegate.m */; };
+		DE5B7C601936524400921E1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C5F1936524400921E1F /* Images.xcassets */; };
+		DE5B7C671936524400921E1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C661936524400921E1F /* XCTest.framework */; };
+		DE5B7C681936524400921E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C4D1936524400921E1F /* Foundation.framework */; };
+		DE5B7C691936524400921E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7C511936524400921E1F /* UIKit.framework */; };
+		DE5B7C711936524400921E1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C6F1936524400921E1F /* InfoPlist.strings */; };
+		DE5B7C731936524400921E1F /* ARTOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B7C721936524400921E1F /* ARTOTests.m */; };
+		DE5B7C7E193653D400921E1F /* View in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C7D193653D400921E1F /* View */; };
+		DE5B7C80193653E800921E1F /* Model in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C7F193653E800921E1F /* Model */; };
+		DE5B7C82193653FA00921E1F /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = DE5B7C81193653FA00921E1F /* Controller */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE5B7C6A1936524400921E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5B7C421936524400921E1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5B7C491936524400921E1F;
+			remoteInfo = ARTO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE5B7C4A1936524400921E1F /* ARTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5B7C4D1936524400921E1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE5B7C4F1936524400921E1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE5B7C511936524400921E1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE5B7C551936524400921E1F /* ARTO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARTO-Info.plist"; sourceTree = "<group>"; };
+		DE5B7C571936524400921E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE5B7C591936524400921E1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE5B7C5B1936524400921E1F /* ARTO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARTO-Prefix.pch"; sourceTree = "<group>"; };
+		DE5B7C5C1936524400921E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE5B7C5D1936524400921E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE5B7C5F1936524400921E1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE5B7C651936524400921E1F /* ARTOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5B7C661936524400921E1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DE5B7C6E1936524400921E1F /* ARTOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARTOTests-Info.plist"; sourceTree = "<group>"; };
+		DE5B7C701936524400921E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE5B7C721936524400921E1F /* ARTOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTOTests.m; sourceTree = "<group>"; };
+		DE5B7C7D193653D400921E1F /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		DE5B7C7F193653E800921E1F /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		DE5B7C81193653FA00921E1F /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5B7C471936524400921E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B7C501936524400921E1F /* CoreGraphics.framework in Frameworks */,
+				DE5B7C521936524400921E1F /* UIKit.framework in Frameworks */,
+				DE5B7C4E1936524400921E1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B7C621936524400921E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B7C671936524400921E1F /* XCTest.framework in Frameworks */,
+				DE5B7C691936524400921E1F /* UIKit.framework in Frameworks */,
+				DE5B7C681936524400921E1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5B7C411936524400921E1F = {
+			isa = PBXGroup;
+			children = (
+				DE5B7C531936524400921E1F /* ARTO */,
+				DE5B7C6C1936524400921E1F /* ARTOTests */,
+				DE5B7C4C1936524400921E1F /* Frameworks */,
+				DE5B7C4B1936524400921E1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5B7C4B1936524400921E1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B7C4A1936524400921E1F /* ARTO.app */,
+				DE5B7C651936524400921E1F /* ARTOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5B7C4C1936524400921E1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B7C4D1936524400921E1F /* Foundation.framework */,
+				DE5B7C4F1936524400921E1F /* CoreGraphics.framework */,
+				DE5B7C511936524400921E1F /* UIKit.framework */,
+				DE5B7C661936524400921E1F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE5B7C531936524400921E1F /* ARTO */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B7C81193653FA00921E1F /* Controller */,
+				DE5B7C7F193653E800921E1F /* Model */,
+				DE5B7C7D193653D400921E1F /* View */,
+				DE5B7C5C1936524400921E1F /* AppDelegate.h */,
+				DE5B7C5D1936524400921E1F /* AppDelegate.m */,
+				DE5B7C5F1936524400921E1F /* Images.xcassets */,
+				DE5B7C541936524400921E1F /* Supporting Files */,
+			);
+			path = ARTO;
+			sourceTree = "<group>";
+		};
+		DE5B7C541936524400921E1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B7C551936524400921E1F /* ARTO-Info.plist */,
+				DE5B7C561936524400921E1F /* InfoPlist.strings */,
+				DE5B7C591936524400921E1F /* main.m */,
+				DE5B7C5B1936524400921E1F /* ARTO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE5B7C6C1936524400921E1F /* ARTOTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B7C721936524400921E1F /* ARTOTests.m */,
+				DE5B7C6D1936524400921E1F /* Supporting Files */,
+			);
+			path = ARTOTests;
+			sourceTree = "<group>";
+		};
+		DE5B7C6D1936524400921E1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B7C6E1936524400921E1F /* ARTOTests-Info.plist */,
+				DE5B7C6F1936524400921E1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5B7C491936524400921E1F /* ARTO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5B7C761936524400921E1F /* Build configuration list for PBXNativeTarget "ARTO" */;
+			buildPhases = (
+				DE5B7C461936524400921E1F /* Sources */,
+				DE5B7C471936524400921E1F /* Frameworks */,
+				DE5B7C481936524400921E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARTO;
+			productName = ARTO;
+			productReference = DE5B7C4A1936524400921E1F /* ARTO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5B7C641936524400921E1F /* ARTOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5B7C791936524400921E1F /* Build configuration list for PBXNativeTarget "ARTOTests" */;
+			buildPhases = (
+				DE5B7C611936524400921E1F /* Sources */,
+				DE5B7C621936524400921E1F /* Frameworks */,
+				DE5B7C631936524400921E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5B7C6B1936524400921E1F /* PBXTargetDependency */,
+			);
+			name = ARTOTests;
+			productName = ARTOTests;
+			productReference = DE5B7C651936524400921E1F /* ARTOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5B7C421936524400921E1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Caio de Souza";
+				TargetAttributes = {
+					DE5B7C641936524400921E1F = {
+						TestTargetID = DE5B7C491936524400921E1F;
+					};
+				};
+			};
+			buildConfigurationList = DE5B7C451936524400921E1F /* Build configuration list for PBXProject "ARTO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE5B7C411936524400921E1F;
+			productRefGroup = DE5B7C4B1936524400921E1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5B7C491936524400921E1F /* ARTO */,
+				DE5B7C641936524400921E1F /* ARTOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5B7C481936524400921E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B7C581936524400921E1F /* InfoPlist.strings in Resources */,
+				DE5B7C601936524400921E1F /* Images.xcassets in Resources */,
+				DE5B7C80193653E800921E1F /* Model in Resources */,
+				DE5B7C82193653FA00921E1F /* Controller in Resources */,
+				DE5B7C7E193653D400921E1F /* View in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B7C631936524400921E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B7C711936524400921E1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5B7C461936524400921E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B7C5E1936524400921E1F /* AppDelegate.m in Sources */,
+				DE5B7C5A1936524400921E1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B7C611936524400921E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B7C731936524400921E1F /* ARTOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5B7C6B1936524400921E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5B7C491936524400921E1F /* ARTO */;
+			targetProxy = DE5B7C6A1936524400921E1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE5B7C561936524400921E1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5B7C571936524400921E1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE5B7C6F1936524400921E1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5B7C701936524400921E1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE5B7C741936524400921E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE5B7C751936524400921E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5B7C771936524400921E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
+				INFOPLIST_FILE = "ARTO/ARTO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE5B7C781936524400921E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
+				INFOPLIST_FILE = "ARTO/ARTO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE5B7C7A1936524400921E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARTO.app/ARTO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARTOTests/ARTOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DE5B7C7B1936524400921E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARTO.app/ARTO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTO/ARTO-Prefix.pch";
+				INFOPLIST_FILE = "ARTOTests/ARTOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5B7C451936524400921E1F /* Build configuration list for PBXProject "ARTO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B7C741936524400921E1F /* Debug */,
+				DE5B7C751936524400921E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5B7C761936524400921E1F /* Build configuration list for PBXNativeTarget "ARTO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B7C771936524400921E1F /* Debug */,
+				DE5B7C781936524400921E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5B7C791936524400921E1F /* Build configuration list for PBXNativeTarget "ARTOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B7C7A1936524400921E1F /* Debug */,
+				DE5B7C7B1936524400921E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5B7C421936524400921E1F /* Project object */;
+}
